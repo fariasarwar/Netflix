@@ -1,0 +1,69 @@
+.section4-container{
+    background-color: aqua;
+    box-sizing: border-box;
+}
+.s4-div{
+    /* height: 00px; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.s4-content{
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s4-mail-div {
+    /* background-color: aqua; */
+    width: 80%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .s4-mail-div h3 {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .s4-email-input {
+    /* background-color: rgb(159, 186, 77); */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .s4-email-input input {
+    width: 60%;
+    height: 52px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    border-radius: 4px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgb(108, 103, 103);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .s4-email-input button {
+    padding: 10px 25px;
+    margin-left: 8px;
+    border-radius: 4px;
+    background-color: #ee1e24;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .s4-icon {
+    font-size: 18px;
+  }
+  .s4-email-input button:hover {
+    background-color: #de121ce2;
+  }

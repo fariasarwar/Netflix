@@ -1,0 +1,13 @@
+.Slider-container{
+    /* background-color: aqua; */
+}
+.img-div-1{
+    /* background-color: rgb(188, 199, 96); */
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.img-div-1 img{
+    border-radius: 5px;
+}

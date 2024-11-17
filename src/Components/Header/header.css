@@ -1,0 +1,28 @@
+.h-container{
+    background-color: transparent;
+    width: 100%;
+}
+.header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: black; */
+    margin: 0 141px;
+}
+.logo-section{
+    width: 150px;
+}
+.navbar-links{
+    text-decoration: none;
+    background-color: #E50914;
+    padding: 8px 15px;
+    color: white;
+    font-size: 14px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.navbar-links:hover{
+    background-color: #de121ce2;
+}
